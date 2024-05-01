@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" style="color: blueviolet;" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center" style="color: blueviolet;">About Me</h2>
+      <p>My name is Vengadesh my hometown is Tirunelveli.I have done diploma in Mechanical Engineering from PSR Polytechnic College. Also full stock course
+            I'm done with entri elevate. Now I am a developer. Coding is very interesting to me, so I took up this course
+            I read it. In my house there are father, mother, younger sister and me.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+      <h2 class="text-center" style="color: blueviolet;">My Projects</h2>
+      <div class="py-5 bg-light container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+                  <div class="col">
+                     <div card shadow-sm>
+                        <img src="swiggy.jpg">
+
+                        <div class="card-body">
+                              <h5 class="card-title">Swiggy</h5>
+                              <p class="card-text">Become A Swiggy Partner And Unlock New Opportunities For Your Restaurant. Join Us To Expand Your Business, Reach More Customers, And Increase Your Profits.</p>
+                              <a href="https://partner.swiggy.com/login" class="btn btn-primary">Sign in</a>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col">
+                        <div card shadow-sm>
+                           <img src="netflix.png">
+   
+                           <div class="card-body">
+                                 <h5 class="card-title">Netflix</h5>
+                                 <p class="card-text">Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.</p>
+                                 <a href="https://www.netflix.com/" class="btn btn-primary">Sign in</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col">
+                        <div card shadow-sm>
+                           <img src="naturals.jpg">
+   
+                           <div class="card-body">
+                                 <h5 class="card-title">Naturals</h5>
+                                 <p class="card-text">Naturals is India's first unisex salon with 22 years of excellence in beauty services and entrepreneurship opportunities. We have curated hair care.</p>
+                                 <a href="https://naturals.in/" class="btn btn-primary">Sing in</a>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+            </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center" style="color: blueviolet">Contact Me</h2>
+      <div class="col">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
